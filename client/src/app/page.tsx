@@ -1,5 +1,5 @@
 "use client";
-import { Uploadui } from "@/components/Uploadui";
+
 import Image from "next/image";
 import Link from "next/link";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
