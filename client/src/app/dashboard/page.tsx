@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import Documents from '@/components/Documents'
-import { UploadCloudIcon } from 'lucide-react'
-import React from 'react'
+import Documents from "@/app/components/Documents";
+import { UploadCloudIcon } from "lucide-react";
+import React from "react";
 
 export const DashboardPage = () => {
   return (
@@ -13,5 +13,5 @@ export const DashboardPage = () => {
       <Documents />
     </div>
   );
-}
-export default DashboardPage
+};
+export default DashboardPage;
